@@ -1,0 +1,43 @@
+Rectángulo tiene un ángulo recto (igual a 90°)
+Obtusángulo tiene un ángulo obtuso (mayor que 90° pero menor 180°)
+Acutángulo los tres ángulos son agudos (menor que 90°) Elaborar un algoritmo que permita leer el tamaño de los tres ángulos (A,B,C) de un triángulo e imprima qué tipo es.
+
+Algoritmo
+1. Inicio
+2. Ingrese el angulo A
+3. Ingrese el angulo B
+3. Ingrese el angulo C
+4. Si los 3 angulos suman 180 grados y todos son distintos de 0 el triangulo es correcto
+5. Si no cumple la condicion enviar un mensaje diciendo "Triangulo incorrecto"
+6. Cuando cualquier angulo es igual a 90 entonces es un triangulo rectangulo
+7. Cuando un angulo es mayor a 90 y menor a 180 el triangulo es obtusangulo
+8. Cuando todos los angulos son menor a 90 significa que es un acutangulo
+9. Presentar el pantalla el tipo de triangulo
+10. Fin
+=================================================================================================
+Miniespecificacion
+1. Inicio
+2. A, d[0,n]
+3. B, d[0,n]
+4. C, d[0,n]
+5. Escribir "Ingrese el angulo A"
+6. Leer A
+7. Escribir "Ingrese el angulo B"
+8. Leer B
+9. Escribir "Ingrese el angulo C"
+10. Leer C
+
+11. SI (A + B + C = 180) and A != 0 and B != 0 and C != 0 entonces
+12.	Si (A == 90 or B == 90 or C == 90)
+13.	Escribir "Es un triangulo rectangulo"
+14. 	Fin si
+15.	Si (A > 90 or B > 90 or C > 90)
+16.	Escribir "Es un triangulo obtusangulo"
+17. 	Fin si
+18.	Si (A < 90 and B < 90 and C < 90)
+19.	Escribir "Es un triangulo acutangulo
+20. 	Fin si
+21. De lo contrario
+22. Escribir "Triangulo incorrecto"
+23. Fin si
+24. Fin

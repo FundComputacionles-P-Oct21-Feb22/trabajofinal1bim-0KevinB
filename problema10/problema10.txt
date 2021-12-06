@@ -1,0 +1,38 @@
+Realice un algoritmo que lea un número de datos y calcule la media y la varianza de los mismos. El usuario decide cuando no ingresar más números.
+
+Algoritmo
+1. Inicio
+2. Mientras salida = Verdadero
+3. Ingresamos un numero 
+4. Sumamos los distintos numeros
+5. Dividimos para la cantidad de numeros y obtenemos el promedio
+6. Para la varianza seguimos la formula: La suma de (numero - promedio) ^ 2 divido para el numero de datos
+7. Presentamos en pantalla el promedio y la varianza
+8. Fin
+
+===========================================================================================
+Miniespecificacion
+1. Inicio
+2. contador, i[0,n] <-- 0
+3. suma, d[0,n] <-- 0
+4. varianza, d[0,n] <-- 0
+5. bandera, b[V, F] Verdadero
+6. salida, x(50) [{A-Z} {a-z}]
+
+7. Mientras (bandera == True):
+8.      Escribir "Ingrese un numero"
+9. 	Leer numero
+10.	Si contador >= 0
+11.         suma <-- numero + suma
+12.         contador <-- contador + 1
+13.         promedio <-- suma / contador
+14.         varianza <-- (varianza + (numero - promedio)**2)/contador
+15.         Escribir "Ingrese SALIR para terminar"
+16. 	    Leer salida	
+17. 	    Si salida == "SALIR" or salida == "salir" or salida == "Salir":
+18.        	 bandera = False
+19. 	    Fin si
+20. 	Fin si
+21. Fin mientras
+22. Escribir "Su promedio es: " + promedio + " y su varianza es: " + varianza 
+23. Fin

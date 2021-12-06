@@ -1,0 +1,21 @@
+Elaborar un algoritmo que permita leer un número par y calcule e imprima la suma de los números pares del 2 hasta el número leído. Si el número leído es menor a 2 debe imprimir un mensaje de error.
+
+1. Inicio
+2. numero, i[0,n]
+3. suma, i[0,n] <-- 0
+4. contador, i [0,n] <-- 0
+5. Escribir "Ingrese un numero par"
+6. Leer numero
+7. Si (numero % 2 == 1) entonces
+8.   	Escribri "Ingrese un numero par"
+9. Fin si
+10. Si (numero <= 2) entonces
+11.    	Escribir "Ingrese un numero mayor a 2"
+12. Fin si
+13. Mientras (contador <= numero)
+14.     contador = contador + 1
+15.     Si (contador % 2 == 0) entonces
+16.              suma = contador + suma
+17. Fin mientras
+18. Escribir "La suma de los numeros pares es: " + suma
+19. Fin

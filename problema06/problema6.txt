@@ -1,0 +1,27 @@
+Elaborar un algoritmo que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/100.
+
+Algoritmo
+1. Inicio
+2. Ingrese el numerador 
+3. Ingresar el denominador
+4. El numerador tiene valor de 1
+5. El denominador tiene valor de 1
+6. Divimos el numerador para el denominador
+7. Sumanos 1 al denominador hasta que alcance el valor de 100
+8. Sumamos el resultado de elas divisiones
+9. Presentamos el valor de la suma y las distintas fracciones
+10. Fin
+
+============================================================================================
+Miniespecificacion
+1. Inicio
+2. numerador, [0,n] <-- 1
+3. denominador, [0,n] <-- 1
+4. suma, d[0,n]
+5. Mientras (denominador <= 100):
+6.    	division <-- (numerador/denominador)
+7.    	suma <-- suma + division
+8.    	Escribir numerador + "/" + denominador + " La suma es " + suma
+9.    	denominador = denominador + 1
+10. Fin Mientras
+11. Fin

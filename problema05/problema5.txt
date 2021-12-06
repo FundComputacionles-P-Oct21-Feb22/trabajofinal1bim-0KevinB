@@ -1,0 +1,52 @@
+Dados dos puntos X y Y , que son las coordenadas del plano cartesiano, haga un algoritmo para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y ).
+
+Algoritmo
+1. Inicio
+2. Ingresar el punto X
+3. Ingresar el punto Y
+4. Si X y Y > 0 presentar "Primer cuadrante"
+5. Si X < 0 y Y > 0 presentar "Segundo cuadrante"
+6. Si X < 0 y Y < 0 presentar "Tercer cuadrante"
+7. Si X > 0 y Y < 0 presentar "Cuarto cuadrante"
+8. Si X o Y = 0 presentar "Un punto tiene valor de 0"
+9. Fin
+
+=======================================================================
+Miniespecificacion
+1. Inicio
+2. X, d[0,n]
+3. Y, d[0,n]
+4. Escribir "Ingrese el punto X"
+5. Leer X
+6. Escribir "Ingrese el punto Y"
+7. Leer Y
+8. Si X != 0 and Y != 0 entonces
+9. 	Si X > 0 and Y > 0
+10. 	Presentar "Primer cuadrante"
+11. 	Si X < 0 y Y < 0 entonces
+12. 	Presentar "Segundo cuadrante"
+13. 	Si X <0 y Y < 0 entonces
+14. 	Presentar "Tercer cuadrante"
+15. 	Si X > 0 and Y < 0 entonces
+16. 	Presentar "Cuarto cuadrante"
+17. De lo contrario 
+18. 	Presentar "Algun punto tiene el valor de 0"
+19. Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+En un almacén de venta de trajes, si se compra uno se hace el 20% de descuento, si se compran 2, el 25%, si se compran 3, el 40%, y si compra más de 3, el 50%. Elaborar un algoritmo que lea la 
+cantidad de trajes y el precio unitario (todos tienen el mismo precio) e imprima el subtotal por pagar, el descuento y el total por pagar.
+
+Algoritmo
+1. Inicio
+2. Ingresar la cantidad de trajes comprados
+3. Ingresar el precio unitario del traje
+4. Para obtener el descuento multiplicamos el porcentaje por el costo del traje y por la cantidad de trajes, luego dividimos para 100
+5. Restamos el costo del traje menos el descuento
+6. Si ha comprado uno se le descontaria el 20% 
+7. Si ha comprado dos se le descontaria el 25% 
+8. Si ha comprado tres se le descontaria el 40% 
+9. Si ha comprado mas de tres se le descontaria el 50% 
+10. Fin
+
+============================================================================================================================
+Miniespecificacion
+1. Inicio
+2. cantidad, i[0,n]
+3. costo, d[0,n]
+4. porcentaje, d[0,n]
+5. descuento, d[0,n]
+6. total, d[0,n]
+
+7. Escribir "Ingrese la cantidad de trajes comprados"
+8. Leer cantidad
+9. Escribir "Ingrese el costo unitario del traje" 
+10. Leer costo
+
+11. Si cantidad == 1 entonces
+12. 	porcentaje <-- 20
+13. 	descuento <-- (porcentaje * cantidad * costo) / 100
+14. 	total <-- costo - descuento 
+15. Fin si
+16. Si cantidad == 2 entonces
+17. 	porcentaje <-- 25
+18. 	descuento <-- (porcentaje * cantidad * costo) / 100
+19. 	total <-- costo - descuento 
+20. Fin si
+21. Si cantidad == 3 entonces
+22. 	porcentaje <-- 40
+23. 	descuento <-- (porcentaje * cantidad * costo) / 100
+24. 	total <-- costo - descuento 
+25. Fin si
+26. Si cantidad > 3 entonces
+27. 	porcentaje <-- 50
+28. 	descuento <-- (porcentaje * cantidad * costo) / 100
+29. 	total <-- costo - descuento 
+30. Fin si
+31. Escribir "Su total a pagar es: " + total
+32. Fin
+
+
+
+
+
+
